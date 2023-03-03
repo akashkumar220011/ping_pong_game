@@ -120,14 +120,14 @@ window.addEventListener('keypress', function(event) {
             }
             break;
 
-        case 'a','A':
+        case 'a':
             if (start && parseInt(rod1.style.left) > -34) {
                 rod1.style.left = parseInt(rod1.style.left) - 2 + "%";
                 rod2.style.left = parseInt(rod2.style.left) - 2 + "%";
             }
             break;
 
-        case 'd','D':
+        case 'd':
             if (start && parseInt(rod1.style.left) < 34) {
                 rod1.style.left = parseInt(rod1.style.left) + 2 + "%";
                 rod2.style.left = parseInt(rod2.style.left) + 2 + "%";

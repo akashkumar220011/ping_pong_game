@@ -24,8 +24,8 @@ body {
     position: fixed;
     top: 30px;
     left: 50%-10px;
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     background-color: rgb(210, 186, 26);
     border-radius: 44px;
 }
